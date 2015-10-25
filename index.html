@@ -5,18 +5,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="About Brand">
-    <meta name="author" content="Brand">
+    <meta name="description" content="About Mindlance">
+    <meta name="author" content="Mindlance">
     <meta name="robots" content="index, follow">
     <meta name='google-site-verification' content="">
     <meta name='google' content='nositelinkssearchbox'>
     <meta name="majestic-site-verification" content="">
-    <title>Brand</title>
+    <title>Mindlance</title>
     <!-- <link rel="icon" href="warehouse/favicon.ico"> -->
     
     <!-- CSS Dependencies -->
     <link href="studio/vendors/bootstrap.min.css" rel="stylesheet">
-    
+    <link href="studio/vendors/jquery.fullPage.min.css" rel="stylesheet">
+
     <!-- From Studio-->
     <link href="studio/stylesheet.css" rel="stylesheet">
     
@@ -29,16 +30,36 @@
     <![endif]-->
   </head>
   <body>
+  
+  <!-- Full Page Navigation -->
+  <ul id="header">
+      <li data-menuanchor="anchor-head" class="active"><a href="#anchor-head">First section</a></li>
+      <li data-menuanchor="anchor-1"><a href="#anchor-1">Second section</a></li>
+      <li data-menuanchor="anchor-2"><a href="#anchor-2">Third section</a></li>
+      <li data-menuanchor="anchor-3"><a href="#anchor-3">Fourth section</a></li>
+      <li data-menuanchor="anchor-4"><a href="#anchor-4">Five section</a></li>
+      <li data-menuanchor="anchor-5"><a href="#anchor-5">six section</a></li>
+  </ul>
     
-    <!-- Main Guy -->
-    <div class="container" id="main_container"> 
+  <!-- Main Guy -->
+  <div class="container" id="main_container"> 
+    <div id="fullpage">
+      <div id="fpHead" class="fullpage-section active">Iam 1</div>
+      <div id="fp1" class="fullpage-section">Iam 2</div>
+      <div id="fp2" class="fullpage-section">Iam 3</div>
+      <div id="fp3" class="fullpage-section">Iam 4</div>
+      <div id="fp4" class="fullpage-section">Iam 5</div>
+      <div id="fp5" class="fullpage-section">Iam 6</div>
     </div>
+  </div>
     
     <!-- Script Dependencies -->
     <script type="text/javascript" src="kitchen/vendors/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="kitchen/vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="kitchen/vendors/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="kitchen/vendors/jquery.slimscroll.min.js"></script>
 
     <!-- From the Kitchen -->
     <script type="text/javascript" src="kitchen/cook.js"></script>
-
   </body>
 </html>
