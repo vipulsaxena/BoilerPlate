@@ -6,3 +6,92 @@ body{
   position: fixed;
   top: 0;
 }
+#fpHead{
+  background-image: url("http://vefego.com/i/dark-moon-hd-wallpaper-b322th.jpg");
+}
+#fp1{
+  background-image: url("https://newevolutiondesigns.com/images/freebies/winter-wallpaper-17.jpg");
+}
+#fp2{
+  background-image: url("http://7-themes.com/data_images/out/44/6920204-autumn-wallpaper-18478.jpg");
+}
+#fp3{
+  background-image: url("http://petaimg.com/wp-content/uploads/2015/09/rain-background-hd-wallpaper.jpeg");
+}
+#fp4{
+  background-image: url("http://7-themes.com/data_images/out/41/6910493-snow-wallpaper-widescreen.jpg");
+}
+#fp5{
+  background-image: url("http://fullhdpictures.com/wp-content/uploads/2015/03/Sunset-wallpapers.jpg");
+}
+
+
+.section {
+    position: relative;
+    height: 35px;
+  }
+  
+  .section.two {
+    left: 40px;
+  }
+  
+  .section.three {
+    left: 50px;
+  }
+  
+  .section.four {
+    left: 40px;
+  }
+  
+  .section.five {
+    left: 60px;
+  }
+  
+  .section.seven {
+    left: 10px;
+  }
+  
+  .section.eight {
+    left: 20px;
+  }
+  
+  .section.nine {
+    left: 40px;
+  }
+  
+  .section.ten {
+    left: 30px;
+  }
+  
+  .stellar-particle {
+    background-color: white;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+    z-index: 999;
+  }
+  
+  .stellar-particle.one {
+    left: 10px;
+    top: 10px;
+  }
+
+  .stellar-particle.two {
+    left: 60px;
+    top: 60px;
+  }
+  
+  .stellar-particle.three {
+    left: 110px;
+    top: 110px;
+  }
+  
+  .stellar-particle.four {
+    left: 160px;
+    top: 160px;
+  }
+  
+  .stellar-particle.five {
+    left: 210px;
+    top: 210px;
+  }

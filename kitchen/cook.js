@@ -14,7 +14,7 @@ $(document).ready(function() {
     css3: true,
     scrollingSpeed: 1200,
     autoScrolling: true,
-    scrollBar: false,
+    scrollBar: true,
     easing: 'easeInOutCubic',
     easingcss3: 'ease',
     loopBottom: true,
@@ -49,4 +49,15 @@ $(document).ready(function() {
     afterRender: function(){},
     afterResize: function(){},
   });
+    
+    // Big body parallax
+    // Background
+    $.stellar();
+    // Elements
+    $("#main_container").stellar({
+        horizontalScrolling: true,
+        scrollProperty: 'transform',
+        positionProperty: 'transform',
+        verticalOffset: -100
+    }); 
 });
