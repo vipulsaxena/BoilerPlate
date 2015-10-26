@@ -5,17 +5,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="About Brand">
-    <meta name="author" content="Brand">
+    <meta name="description" content="About Mindlance">
+    <meta name="author" content="Mindlance">
     <meta name="robots" content="index, follow">
     <meta name='google-site-verification' content="">
     <meta name='google' content='nositelinkssearchbox'>
     <meta name="majestic-site-verification" content="">
-    <title>Brand</title>
-    <!-- <link rel="icon" href="warehouse/favicon.ico"> -->
+    <title>
+      Mindlance
+    </title>
+    <!-- <link rel="icon" href="warehouse/favicon.ico">-->
     
     <!-- CSS Dependencies -->
     <link href="studio/vendors/bootstrap.min.css" rel="stylesheet">
+    <link href="studio/vendors/jquery.fullPage.min.css" rel="stylesheet">
     
     <!-- From Studio-->
     <link href="studio/stylesheet.css" rel="stylesheet">
@@ -30,15 +33,140 @@
   </head>
   <body>
     
+    <!-- Full Page Navigation -->
+    <ul id="header">
+      <li data-menuanchor="anchor-head" class="active">
+        <a href="#anchor-head">
+          First section
+        </a>
+    </li>
+    <li data-menuanchor="anchor-1">
+      <a href="#anchor-1">
+        Second section
+      </a>
+    </li>
+    <li data-menuanchor="anchor-2">
+      <a href="#anchor-2">
+        Third section
+      </a>
+    </li>
+    <li data-menuanchor="anchor-3">
+      <a href="#anchor-3">
+        Fourth section
+      </a>
+    </li>
+    <li data-menuanchor="anchor-4">
+      <a href="#anchor-4">
+        Five section
+      </a>
+    </li>
+    <li data-menuanchor="anchor-5">
+      <a href="#anchor-5">
+        six section
+      </a>
+    </li>
+    </ul>
+    
     <!-- Main Guy -->
-    <div class="container" id="main_container"> 
+    <div class="container scrollable vertical" id="main_container">
+      <div id="fullpage">
+        <div id="fpHead" class="fullpage-section active" data-stellar-background-ratio="0.5">
+            <div class="section one">
+              <div class="stellar-particle one" data-stellar-ratio="0.1">
+              </div>
+              <div class="stellar-particle two" data-stellar-ratio="0.2">
+              </div>
+              <div class="stellar-particle three" data-stellar-ratio="0.3">
+              </div>
+              <div class="stellar-particle four" data-stellar-ratio="0.4">
+              </div>
+              <div class="stellar-particle five" data-stellar-ratio="0.5">
+              </div>
+            </div>
+        </div>
+        <div id="fp1" class="fullpage-section" data-stellar-background-ratio="0.5">
+          <div class="section two">
+            <div class="stellar-particle one" data-stellar-ratio="1.2">
+            </div>
+            <div class="stellar-particle two" data-stellar-ratio="1.3">
+            </div>
+            <div class="stellar-particle three" data-stellar-ratio="1.4">
+            </div>
+            <div class="stellar-particle four" data-stellar-ratio="1.5">
+            </div>
+            <div class="stellar-particle five" data-stellar-ratio="1.6">
+            </div>
+          </div>
+        </div>
+        <div id="fp2" class="fullpage-section" data-stellar-background-ratio="0.5">
+          <div class="section three">
+            <div class="stellar-particle one" data-stellar-ratio="2.1">
+            </div>
+            <div class="stellar-particle two" data-stellar-ratio="2.1">
+            </div>
+            <div class="stellar-particle three" data-stellar-ratio="2.2">
+            </div>
+            <div class="stellar-particle four" data-stellar-ratio="2.3">
+            </div>
+            <div class="stellar-particle five" data-stellar-ratio="2.4">
+            </div>
+          </div>
+        </div>
+        <div id="fp3" class="fullpage-section" data-stellar-background-ratio="0.5">
+          <div class="section four">
+            <div class="stellar-particle one" data-stellar-ratio="3.1">
+            </div>
+            <div class="stellar-particle two" data-stellar-ratio="3.3">
+            </div>
+            <div class="stellar-particle three" data-stellar-ratio="3.4">
+            </div>
+            <div class="stellar-particle four" data-stellar-ratio="3.6">
+            </div>
+            <div class="stellar-particle five" data-stellar-ratio="3.8">
+            </div>
+          </div>
+        </div>
+        <div id="fp4" class="fullpage-section" data-stellar-background-ratio="0.5">
+          <div class="section five">
+            <div class="stellar-particle one" data-stellar-ratio="2">
+            </div>
+            <div class="stellar-particle two" data-stellar-ratio="4">
+            </div>
+            <div class="stellar-particle three" data-stellar-ratio="6">
+            </div>
+            <div class="stellar-particle four" data-stellar-ratio="8">
+            </div>
+            <div class="stellar-particle five" data-stellar-ratio="10">
+            </div>
+          </div>
+        </div>
+        <div id="fp5" class="fullpage-section" data-stellar-background-ratio="0.5">
+          <div class="section six">
+            <div class="stellar-particle one" data-stellar-ratio="9">
+            </div>
+            <div class="stellar-particle two" data-stellar-ratio="4">
+            </div>
+            <div class="stellar-particle three" data-stellar-ratio="3">
+            </div>
+            <div class="stellar-particle four" data-stellar-ratio="6">
+            </div>
+            <div class="stellar-particle five" data-stellar-ratio="10">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     
     <!-- Script Dependencies -->
     <script type="text/javascript" src="kitchen/vendors/jquery-1.11.3.min.js"></script>
-
+    <script type="text/javascript" src="kitchen/vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="kitchen/vendors/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="kitchen/vendors/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="http://markdalgleish.com/projects/stellar.js/demos/js/scrollability.min.js"></script>
+    <script type="text/javascript" src="kitchen/vendors/jquery.stellar.min.js"></script>
+    
     <!-- From the Kitchen -->
-    <script type="text/javascript" src="kitchen/cook.js"></script>
-
+    <script type="text/javascript" src="kitchen/cook.js">
+    </script>
   </body>
 </html>
